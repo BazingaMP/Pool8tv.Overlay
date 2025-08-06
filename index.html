@@ -48,7 +48,7 @@
       color: #222;
       padding: 6px 16px;
       border-radius: 12px 12px 0 0;
-      font-size: 14px;
+      font-size: 18px;
       font-weight: 600;
       display: inline-block;
       box-shadow: 0 8px 24px rgba(0,0,0,0.3);
@@ -117,6 +117,11 @@
       border-radius: 2px;
       background: #fff;
       z-index: 5;
+    }
+    /* Mirror for right player: inner side flag */
+    #player2 .player-avatar .flag {
+      right: auto;
+      left: -4px;
     }
 
     .player-details {
@@ -233,8 +238,8 @@
 </div>
 
 <script>
-    const RANKING_ID = 64386994;
-    const TABLE_NUMBER = 3;
+    const RANKING_ID = 53423548;
+    const TABLE_NUMBER = 9;
     const REFRESH_INTERVAL = 10000;
     const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQDtoLuDb_2oUK-RY2FavLxBReyT8w1WXGbZuRk20GOjh2vSkPDMAzNjytQNcY_xnbUkhgEjN2dvgiT/pub?output=csv';
     const BASE_RATING = 500, K_FACTOR = 15;
